@@ -26,8 +26,8 @@ function Header() {
           placeholder="Find..."
           className="p-2 bg-almond text-cordovan placeholder-pink-200 rounded-md w-full"
         />
-        <button className="bg-cordovan p-2 rounded-md text-almond">🔍</button>
-        <button className="bg-cordovan p-2 rounded-md text-cordovan bg-almond">⏫ Upload</button>
+        <button className="bg-almond p-2 rounded-md text-almond">🔍</button>
+        <button className="bg-almond p-2 space-x-2 rounded-md text-sm text-cordovan bg-almond">⏫ Upload</button>
         <div className="flex items-center space-x-2 bg-almond text-cordovan rounded-md">
           <span>👤</span>
           <span>Waseem Arshad</span>
@@ -35,7 +35,7 @@ function Header() {
       </div>
       </div>
 
-      <nav className="flex flex-row hidden space-x-4 md:flex  text-xl border-t-2 border-b-2">
+      <nav className="flex flex-row hidden space-x-4 md:flex  text-xl mt-4 border-t-2 border-b-2 mx-12">
         <a href="#videos" className="hover:underline">Videos</a>
         <span>/</span>
         <a href="#people" className="hover:underline">People</a>
