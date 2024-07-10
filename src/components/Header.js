@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -36,11 +37,11 @@ function Header() {
       </div>
 
       <nav className="flex flex-row hidden space-x-4 md:flex text-xl mt-4 border-t-2 border-b-2 mx-12 p-2">
-        <a href="#videos" className="hover:underline">Videos</a>
+        <a href="Videos" className="hover:underline">Videos</a>
         <span>/</span>
         <a href="#people" className="hover:underline">People</a>
         <span>/</span>
-        <a href="#documents" className="hover:underline">Documents</a>
+        <a href="Documents" className="hover:underline">Documents</a>
         <span>/</span>
         <a href="#events" className="hover:underline">Events</a>
         <span>/</span>
@@ -48,7 +49,7 @@ function Header() {
         <span>/</span>
         <a href="#favorites" className="hover:underline">Favorites</a>
         <span>/</span>
-        <a href="#channels" className="hover:underline">Channels</a>
+        <a href="Channels" className="hover:underline">Channels</a>
       </nav>
 
       {/* Mobile Menu */}
