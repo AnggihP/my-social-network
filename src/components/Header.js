@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <header className="bg-cordovan text-almond p-4 md:flex-row md:items-center md:justify-between ">
-      <div className="flex flex-row justify-evenly items-center mb-4 md:mb-0 w-full md:w-auto ">
+      <div className="flex flex-row justify-between items-center mb-4 md:mb-0 w-full md:w-auto mx-12 ">
         <div className="md:hidden">
           <button onClick={toggleMobileMenu} className="text-almond">
             <img

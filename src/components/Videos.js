@@ -6,7 +6,7 @@ function Videos() {
       <h2 className="flex justify-between items-center text-lg font-bold text-almond">
         Videos <span className="text-sm text-almond cursor-pointer">Browse all videos</span>
       </h2>
-      <div className="video-grid flex flex-rows-1 flex-overflow overflow-y-hidden gap-2 mt-4 md:grid md:grid-cols-3 md:grid-rows-3 md:h-96">
+      <div className="video-flex flex flex-rows-1 flex-overflow overflow-y-hidden gap-2 mt-4 md:grid md:grid-cols-3 md:grid-rows-3 md:h-96">
         <div className="video-item large bg-almond text-cordovan p-4 align-text-bottom md:row-span-2 md:col-span-2">
           How to improve your skills <br /> Waseem Arshad <br /> 10,7687 views
         </div>

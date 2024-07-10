@@ -2,12 +2,12 @@ import React from 'react';
 
 function Activity() {
   return (
-    <div className="section activity p-4">
-      <h2 className="flex justify-between items-center text-md font-bold text-almond">
-        Activity <span className="text-sm text-almond cursor-pointer ">View timeline / Filter activities</span>
+    <div className="section activity p-4 ">
+      <h2 className="flex justify-between items-center text-lg font-bold text-almond ">
+        Activity <span className="text-xs text-almond cursor-pointer ">View timeline / Filter activities</span>
       </h2>
       {/* <div className="activity-grid grid grid-cols-1 gap-4 mt-4 "> */}
-      <div className="activity-grid flex flex-col gap-2 mt-4 flex-overflow overflow-x-hidden max-h-96">
+      <div className="activity-grid flex flex-col gap-2 mt-4 flex-overflow overflow-x-hidden max-h-96 border-b-2 border-t-2 p-4 border-almond">
 
         <div className="activity-item bg-cordovan text-almond text-sm p-4 border border-almond">John Stanior commented <br /> Well, I am liking how it captures the audience <br /> 2 seconds ago</div>
         <div className="activity-item bg-cordovan text-almond text-sm p-4 border border-almond">John Stanior added a new video <br /> Creative people must follow these guidelines <br /> 5 minutes ago</div>

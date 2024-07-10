@@ -6,7 +6,7 @@ function Peoples() {
       <h2 className="flex justify-between items-center text-lg font-bold text-almond">
         People <span className="text-sm text-almond cursor-pointer">View all</span>
       </h2>
-      <div className="people-grid flex flex-rows-1 flex-overflow overflow-y-hidden gap-2 mt-4 md:grid md:grid-cols-3 md:grid-rows-3 md:h-96">
+      <div className="people-flex flex flex-rows-1 flex-overflow overflow-y-hidden gap-2 mt-4 md:grid md:grid-cols-3 md:grid-rows-3 md:h-96">
         <div className="people-item large row-span-2 col-span-2 bg-almond text-cordovan p-4 align-text-bottom">
           Waseem Arshad <br /> User interface designer <br /> 18,7887 views
         </div>

@@ -4,13 +4,13 @@ function Footer() {
   return (
     <footer className="bg-cordovan text-almond p-4 border-t-2 mx-12">
       <div className="flex justify-center mb-4 space-x-2">
-        <a href="https://twitter.com" className="p-2 bg-red-700 rounded-md hover:bg-red-500">
+        <a href="https://twitter.com" className="p-2 bg-white rounded-md hover:bg-red-500">
           <i className="fab fa-twitter"></i>
         </a>
-        <a href="https://linkedin.com" className="p-2 bg-red-700 rounded-md hover:bg-red-500">
+        <a href="https://linkedin.com" className="p-2 bg-white rounded-md hover:bg-red-500">
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://facebook.com" className="p-2 bg-red-700 rounded-md hover:bg-red-500">
+        <a href="https://facebook.com" className="p-2 bg-white rounded-md hover:bg-red-500">
           <i className="fab fa-facebook"></i>
         </a>
       </div>

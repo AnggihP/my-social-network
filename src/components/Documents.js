@@ -6,7 +6,7 @@ function Documents() {
       <h2 className="flex justify-between items-center text-lg font-bold text-almond">
         Documents <span className="text-sm text-almond cursor-pointer">Browse all documents</span>
       </h2>
-      <div className="document-grid flex flex-rows-1 flex-overflow overflow-y-hidden gap-2 mt-4 md:grid md:grid-cols-3 md:grid-rows-3 md:h-96">
+      <div className="document-flex flex flex-rows-1 flex-overflow overflow-y-hidden gap-2 mt-4 md:grid md:grid-cols-3 md:grid-rows-3 md:h-96">
         <div className="document-item large row-span-2 col-span-2 bg-almond text-cordovan p-4 text-bottom">
           HTML5 and usage <br /> 18,7887 views
         </div>
